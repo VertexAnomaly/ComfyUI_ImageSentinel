@@ -96,6 +96,8 @@ Follow these steps to integrate **ImageSentinel** into your ComfyUI workflow:
    - Each time you overwrite and save the monitored image file from external software, ImageSentinel detects the update.
    - The node automatically reloads the new image, seamlessly updating your workflow.
 
+---
+
 ## Explanation of the Delay Mechanism (Instant Queue Mode)
 
 When using ComfyUI’s **Instant Queue mode**, nodes may rapidly re-execute, potentially causing unnecessary reloads even when your monitored image hasn't fully updated yet. The built-in delay in ImageSentinel addresses this issue:
