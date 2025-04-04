@@ -110,3 +110,13 @@ class ImageSentinel:
             return hashlib.sha256(file_bytes).hexdigest()
         except:
             return ""
+
+
+# Node mappings for ComfyUI
+NODE_CLASS_MAPPINGS = {
+    "ImageSentinel": ImageSentinel
+}
+
+NODE_DISPLAY_NAME_MAPPINGS = {
+    "ImageSentinel": "♻️ ImageSentinel"
+}
