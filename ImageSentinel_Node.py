@@ -97,7 +97,7 @@ class ImageSentinel:
         if the file turns out to be unchanged.
         """
         if delay_seconds > 0:
-            print(f"[ImageSentinel] Delaying before hash check by {delay_seconds} second(s)...")
+ #           print(f"[ImageSentinel] Delaying before hash check by {delay_seconds} second(s)...")
             time.sleep(delay_seconds)
 
         file_path = os.path.join(folder_path, image_name)
