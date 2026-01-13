@@ -1,0 +1,15 @@
+[project]
+name = "imagesentinel"
+description = "A ComfyUI node that provides an Image Loader that updates inside the workflow when the Image file is changed. This allows for a easy bridge between 3D software, and 2D art applications while retaining use of a full workflow rather than being restricted to a plugin."
+version = "1.0.0"
+license = {file = "LICENSE"}
+dependencies = ["psd-tools>=1.9.17", "Pillow>=9.0.0", "numpy>=1.21.0", "torch>=1.8.0"]
+
+[project.urls]
+Repository = "https://github.com/VertexAnomaly/ComfyUI_ImageSentinel"
+#  Used by Comfy Registry https://comfyregistry.org
+
+[tool.comfy]
+PublisherId = "vertexanomaly"
+DisplayName = "ComfyUI_ImageSentinel"
+Icon = ""
